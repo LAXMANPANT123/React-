@@ -4,6 +4,7 @@ import Todoitems from "./components/Todoitems";
 import Button from "./components/Button";
 import './style.css';
 import CounterComponent from "./components/countercomponent";
+// import Timer from "./timer";
 
 const App = () => {
   return (

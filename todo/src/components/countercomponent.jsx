@@ -11,7 +11,7 @@ const CounterComponent = () => {
             <p>my name is - {value}</p>
             <button onClick={()=> setvalue("laxman.jr")}>change my name</button>
             <button onClick={() => setcount(count + 1)}> increment</button>
-            <button onClick={() => setcount(count-1)}>Decrement</button>
+            <button onClick={() => setcount(count - 1)}>Decrement</button>
         </div>
     );
 };
